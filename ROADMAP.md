@@ -2,7 +2,7 @@
 
 The goal is reliable end-to-end Fusion workflows, with particular emphasis on existing multi-component designs. This is a priority plan, not a promise of dates or complete API coverage. Completion requires implementation, independent validation, and recovery documentation.
 
-## Delivered — v0.2
+## Delivered â€” v0.2
 
 - [x] Native MCP bridge, document identity checks, persistent operation journal, and explicit uncertain-operation recovery.
 - [x] Typed sketches and mechanical features with numerical/feature-health inspection.
@@ -11,7 +11,9 @@ The goal is reliable end-to-end Fusion workflows, with particular emphasis on ex
 - [x] Rigid assembly fixture, BOM, interference, and STEP/DXF export workflows.
 - [x] Tool-library selection, milling setup, face operation, and asynchronous toolpath generation.
 
-## Priority 1 — Existing-document editing
+- [x] Packaged workflow skills covering core operations and discovery for additional Fusion workspaces.
+
+## Priority 1 â€” Existing-document editing
 
 - [ ] Feature-aware inspection and edits beyond parameter expressions: suppression, feature inputs, and clearer dependency previews.
 - [ ] Explicit single-instance independence with a preview of affected definitions and references.
@@ -20,7 +22,7 @@ The goal is reliable end-to-end Fusion workflows, with particular emphasis on ex
 
 Acceptance: edit a nested repeated assembly, verify the intended instances and dependent geometry, preserve unrelated components, and reject stale or ambiguous targets.
 
-## Priority 2 — Broader mechanical workflows
+## Priority 2 â€” Broader mechanical workflows
 
 - [ ] More sketch primitives and explicit geometric/dimensional constraints.
 - [ ] Live validation of revolute and slider joints, including measured motion limits.
@@ -29,7 +31,7 @@ Acceptance: edit a nested repeated assembly, verify the intended instances and d
 
 Acceptance: reproducible synthetic fixtures with dimensional, constraint, and feature-health checks; document partial failure behavior.
 
-## Priority 3 — Manufacturing completion
+## Priority 3 â€” Manufacturing completion
 
 - [ ] Expand CAM geometry selection and operation coverage beyond the validated face workflow.
 - [ ] Machine, fixture, stock, and WCS configuration with inspectable selections.
@@ -38,7 +40,7 @@ Acceptance: reproducible synthetic fixtures with dimensional, constraint, and fe
 
 Acceptance: inspect setup and tool choices, generate valid toolpaths, verify resulting files and post configuration, and distinguish generation success from machining verification.
 
-## Priority 4 — Compatibility and releases
+## Priority 4 â€” Compatibility and releases
 
 - [ ] Test macOS installation and native connection behavior.
 - [ ] Maintain a Fusion/native-protocol compatibility matrix across upgrades.

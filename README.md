@@ -8,7 +8,7 @@ Version **0.2.0** · Python **3.11+** · **MIT** · Windows live-tested
 
 This is an independent community project, not an Autodesk product. It is under active development; tool coverage is not equivalent to complete Fusion API coverage.
 
-[Quick start](#quick-start) · [Existing assemblies](docs/existing-models.md) · [Tool reference](docs/tools.md) · [Roadmap](ROADMAP.md) · [Contributing](CONTRIBUTING.md)
+[Installation guide](docs/installation.md) · [Cheat sheet](docs/cheatsheet.md) · [Quick start](#quick-start) · [Existing assemblies](docs/existing-models.md) · [Tool reference](docs/tools.md) · [Roadmap](ROADMAP.md) · [Contributing](CONTRIBUTING.md)
 
 ## What it can do
 
@@ -40,6 +40,8 @@ Open Fusion document
 No custom Fusion add-in is required. Fusion must be running with its native MCP server enabled. This adapter currently handles JSON HTTP responses; SSE responses are unsupported.
 
 ## Quick start
+
+For complete client configuration, skill installation, updates, and troubleshooting, follow the [installation guide](docs/installation.md). For everyday prompts and tool sequences, keep the [cheat sheet](docs/cheatsheet.md) handy.
 
 ### 1. Prepare Fusion
 
@@ -103,6 +105,12 @@ Acknowledgement does not undo, cancel, or retry an operation. Keep the journal: 
 
 `fusion_execute_python` runs with Fusion's local Python privileges. Its read-only flag guards design changes; it is not a filesystem or operating-system sandbox. Use trusted clients and scripts. See [architecture and recovery](docs/architecture.md) and [security](SECURITY.md).
 
+## Workflow skills
+
+The package includes **ten assistant skills** for documents, mechanical modeling, existing assemblies, CAM, drawings, advanced geometry, rendering/animation, simulation/generative design, electronics, and custom API/recovery workflows. Each identifies whether it uses typed tools, experimental operations, or capability discovery.
+
+See the [skill catalog and installation notes](docs/skills.md). Skills ship in the source checkout/archive and guide existing tools; they do not add unsupported Fusion capabilities.
+
 ## Development
 
 ```powershell
@@ -116,6 +124,7 @@ Offline tests do not require Fusion. Live scripts are opt-in and can modify docu
 src/fusion_native_mcp/  Protocol adapter, typed tools, and Fusion runtimes
 tests/                 Offline tests and explicit live acceptance scripts
 examples/              Scripts intended to run inside Fusion
+skills/                Self-contained assistant workflow instructions
 docs/                  Architecture, existing models, tools, testing, validation
 .github/               CI, issue forms, and pull request template
 ```

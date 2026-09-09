@@ -28,7 +28,7 @@ pythonpath = ["src"]
 
 [tool.hatch.build.targets.sdist]
 include = [
-  "/src", "/tests", "/examples", "/docs",
+  "/src", "/tests", "/examples", "/docs", "/skills",
   "/README.md", "/LICENSE", "/CONTRIBUTING.md", "/ROADMAP.md",
   "/SECURITY.md", "/CHANGELOG.md", "/EXISTING_MODELS.md",
   "/pyproject.toml", "/run.py", "/setup.ps1", "/mcp-config.example.json"

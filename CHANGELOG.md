@@ -4,12 +4,16 @@ Notable project changes are recorded here. Version headings describe local imple
 
 ## Unreleased
 
+- Added a complete installation guide and user cheat sheet covering client setup, skills, workflows, troubleshooting, and recovery.
+
+- Added ten packaged Fusion workflow skills, an Autodesk section mapping, and explicit support boundaries.
+
 ### Added
 
 - GitHub-ready documentation, MIT license, contribution and security policies, roadmap, and issue/PR templates.
 - Offline CI and package builds; portable MCP configuration example and explicit source-distribution contents.
 
-## 0.2.0 — 2026-09-10
+## 0.2.0 â€” 2026-09-10
 
 ### Added
 
@@ -24,7 +28,7 @@ Notable project changes are recorded here. Version headings describe local imple
 - Split long source literals and require an execution-completion marker to detect native responses that reported success without running the submitted code.
 - Resolve nested occurrence references in root assembly context and distinguish proxy geometry from native component geometry.
 
-## 0.1.0 — 2026-09-09
+## 0.1.0 â€” 2026-09-09
 
 ### Added
 
