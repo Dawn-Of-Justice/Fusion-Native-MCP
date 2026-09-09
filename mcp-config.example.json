@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "fusion-native": {
+      "command": "C:/path/to/Fusion-Native-MCP/.venv/Scripts/python.exe",
+      "args": ["C:/path/to/Fusion-Native-MCP/run.py"],
+      "env": {
+        "FUSION_MCP_ENDPOINT": "http://127.0.0.1:27182/mcp",
+        "FUSION_MCP_STATE_DIR": "C:/path/to/Fusion-Native-MCP/.fusion-mcp"
+      }
+    }
+  }
+}

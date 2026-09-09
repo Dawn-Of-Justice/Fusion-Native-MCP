@@ -1,0 +1,29 @@
+name: Bug report
+description: Report a reproducible failure using a synthetic example.
+title: "[Bug]: "
+body:
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Project version/commit, OS, Python, Fusion version, and MCP client.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: Include tool names and sanitized arguments. Describe active document and shared/linked components. Omit proprietary models, tokens, and local paths.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected and actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: recovery
+    attributes:
+      label: Operation state and recovery
+      description: Was the operation started, succeeded, or uncertain? What changed in Fusion? Include sanitized errors and recovery steps; do not blindly retry a mutation.

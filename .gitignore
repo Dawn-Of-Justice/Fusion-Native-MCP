@@ -1,0 +1,31 @@
+# Local runtime and client configuration
+.venv/
+.fusion-mcp/
+mcp-config.json
+.env
+.env.*
+!.env.example
+
+# Generated CAD, screenshots, reports, and journal fixtures
+/validation/
+
+# Python and build products
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+/build/
+/dist/
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp

@@ -1,0 +1,25 @@
+name: Feature request
+description: Propose a concrete modeling, assembly, or CAM workflow.
+title: "[Feature]: "
+body:
+  - type: textarea
+    id: workflow
+    attributes:
+      label: User workflow
+      description: What are you trying to accomplish, and what prevents it today?
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Proposed behavior
+      description: Describe inputs, intended document/components, and expected output.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: How could a small synthetic fixture prove the result is correct?
+    validations:
+      required: true
