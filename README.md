@@ -113,6 +113,8 @@ See the [skill catalog and installation notes](docs/skills.md). Skills ship in t
 
 ## Development
 
+Continuing this project in a new agent session? Start with the [development handoff](HANDOFF.md) for architecture, recorded validation, local setup, known pitfalls, and next priorities.
+
 ```powershell
 ./.venv/Scripts/python.exe -m pip install -e ".[test]"
 ./.venv/Scripts/python.exe -m pytest tests -q

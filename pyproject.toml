@@ -30,6 +30,6 @@ pythonpath = ["src"]
 include = [
   "/src", "/tests", "/examples", "/docs", "/skills",
   "/README.md", "/LICENSE", "/CONTRIBUTING.md", "/ROADMAP.md",
-  "/SECURITY.md", "/CHANGELOG.md", "/EXISTING_MODELS.md",
+  "/SECURITY.md", "/CHANGELOG.md", "/EXISTING_MODELS.md", "/HANDOFF.md",
   "/pyproject.toml", "/run.py", "/setup.ps1", "/mcp-config.example.json"
 ]
